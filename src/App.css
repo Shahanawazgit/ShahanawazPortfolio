@@ -545,7 +545,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 18px;
   margin-top: 25px;
   border-radius: 20px 0;
-  width: 25%;
   position: relative;
   transition: 0.3s ease-in-out;
 }
@@ -583,6 +582,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.footer .contact-info a {
+  text-decoration: none;
+  color: #b8b8b8;
+  font-size: 20px;
 }
 
 .footer .contact-info p {

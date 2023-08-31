@@ -10,11 +10,12 @@ const Footer = () => {
         <Row className="align-items-center">
           <Col sm={6}>
             <div className="contact-info">
+              <a href="mailto: shahanawaz2299@gmail.com">
+                <i className="fa-solid fa-envelope"></i>{" "}
+                shahanawaz2299@gmail.com
+              </a>
               <p>
-                <i class="fa-solid fa-envelope"></i> shahanawaz2299@gmail.com
-              </p>
-              <p>
-                <i class="fa-solid fa-phone"></i> +91 9545263991
+                <i className="fa-solid fa-phone"></i> +91 9545263991
               </p>
             </div>
           </Col>
