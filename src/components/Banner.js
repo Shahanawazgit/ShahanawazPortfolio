@@ -53,10 +53,11 @@ const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
-          <Col xs={12} md={6} xl={7}>
+          <Col xs={12} md={7} xl={7}>
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
+                  id="left-b"
                   className={
                     isVisible ? "animate__animated animate__slideInLeft" : ""
                   }
@@ -65,12 +66,7 @@ const Banner = () => {
                   <h1>
                     {`Hi I'm Shahanawaz a `}
                     <br />
-                    <span
-                      className="wrap"
-                      style={{ height: "65px", color: "purple" }}
-                    >
-                      {text}
-                    </span>
+                    <span className="wrap">{text}</span>
                   </h1>
                   <p>
                     Dynamic frontend developer with extensive knowledge and
@@ -98,7 +94,7 @@ const Banner = () => {
               )}
             </TrackVisibility>
           </Col>
-          <Col xs={12} md={6} xl={5}>
+          <Col xs={12} md={5} xl={5}>
             <TrackVisibility>
               {({ isVisible }) => (
                 <div

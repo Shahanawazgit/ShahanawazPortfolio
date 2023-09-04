@@ -28,6 +28,7 @@ const NavBar = () => {
 
   const onUpdateActiveLink = (link) => {
     setActiveLink(link);
+    document.querySelector(".navbar-collapse").classList.toggle("show");
   };
 
   return (
@@ -75,6 +76,11 @@ const NavBar = () => {
                 href="https://www.linkedin.com/in/shahanawaz-pathan/"
                 target="_blank"
                 rel="noreferrer"
+                onClick={() => {
+                  document
+                    .querySelector(".navbar-collapse")
+                    .classList.toggle("show");
+                }}
               >
                 <img src={linkedin} alt="Linkedin" />
               </a>
@@ -82,13 +88,23 @@ const NavBar = () => {
                 href="https://github.com/Shahanawazgit"
                 target="_blank"
                 rel="noreferrer"
+                onClick={() => {
+                  document
+                    .querySelector(".navbar-collapse")
+                    .classList.toggle("show");
+                }}
               >
                 <img src={gitHub} alt="GitHub" />
               </a>
             </div>
             <button
               className="vvd"
-              onClick={() => (window.location.href = "#connect")}
+              onClick={() => {
+                window.location.href = "#connect";
+                document
+                  .querySelector(".navbar-collapse")
+                  .classList.toggle("show");
+              }}
             >
               <span>Let's Connect</span>
             </button>

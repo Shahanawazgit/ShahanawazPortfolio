@@ -169,6 +169,10 @@ span.navbar-text {
   width: 100%;
 }
 
+.navbar-toggler {
+  background-color: mediumpurple !important;
+}
+
 nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
   outline: none;
@@ -222,6 +226,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
+@media screen and (max-width: 768px) {
+  .navbar-nav {
+    align-items: flex-end;
+    gap: 10px;
+  }
+
+  span.navbar-text {
+    align-items: flex-end;
+    gap: 10px;
+    flex-direction: column;
+  }
+}
+
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
@@ -255,6 +272,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 20px;
   display: block;
   height: 130px;
+}
+
+.banner h1 > span {
+  color: rgb(225, 56, 225);
+  position: relative;
+  z-index: 999;
 }
 
 .banner p {
@@ -306,6 +329,55 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
+}
+
+/************ Responsive Banner ************/
+@media screen and (max-width: 1280px) {
+  #left-b {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner h1 {
+    font-size: 55px;
+    height: 160px;
+  }
+
+  .banner h1 > span {
+    display: block;
+    width: max-content;
+  }
+
+  .banner p {
+    font-size: 16px;
+    width: fit-content;
+  }
+
+  .banner button {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner h1 {
+    font-size: 50px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner h1 {
+    font-size: 45px;
+    height: 170px;
+  }
+
+  .banner h1 > span {
+    width: min-content;
+  }
+
+  .banner img {
+    display: none;
+  }
 }
 
 /************ Skills Css ************/
@@ -485,6 +557,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
+}
+
+@media screen and (max-width: 768px) {
+  .project .nav.nav-pills {
+    width: 100%;
+  }
+
+  .project .nav.nav-pills .nav-link {
+    font-size: 10px;
+  }
 }
 
 /************ Contact Css ************/
