@@ -54,27 +54,27 @@ const Skills = () => {
                 className="skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="" />
+                  <img src={meter1} alt="meter-svg" />
                   <h5>HTML</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="" />
+                  <img src={meter2} alt="meter-svg" />
                   <h5>CSS</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="" />
+                  <img src={meter3} alt="meter-svg" />
                   <h5>Bootstrap</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="" />
+                  <img src={meter3} alt="meter-svg" />
                   <h5>JavaScript</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="" />
+                  <img src={meter2} alt="meter-svg" />
                   <h5>React.js</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="" />
+                  <img src={meter2} alt="meter-svg" />
                   <h5>Git & Github</h5>
                 </div>
               </Carousel>

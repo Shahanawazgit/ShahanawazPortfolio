@@ -65,7 +65,10 @@ const Banner = () => {
                   <h1>
                     {`Hi I'm Shahanawaz a `}
                     <br />
-                    <span className="wrap" style={{ height: "65px" }}>
+                    <span
+                      className="wrap"
+                      style={{ height: "65px", color: "purple" }}
+                    >
                       {text}
                     </span>
                   </h1>

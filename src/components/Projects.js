@@ -15,8 +15,43 @@ import eCommerceWebApp from "../assets/img/eCommerceWebApp.png";
 import passwordGenerator from "../assets/img/passwordGenerator.png";
 import colorPicker from "../assets/img/colorPicker.png";
 import psdToHtml from "../assets/img/psdToHtml.png";
+import fitbit from "../assets/img/fitbit laptop.png";
 
 const Projects = () => {
+  const projectsReactBootstrap = [
+    {
+      title: "FitBit",
+      description: "Completely responsive gym website developed using React",
+      imgUrl: fitbit,
+      link: "https://fitbit-shahanawazgit.vercel.app/",
+    },
+    {
+      title: "My Portfolio",
+      description:
+        "The Portfolio website to show my details, skills & work developed using React and React-Bootstrap",
+      imgUrl: Portfolio,
+      link: "https://github.com/Shahanawazgit/iNotebook",
+    },
+    {
+      title: "iNotebook",
+      description: "MERN app for making notes",
+      imgUrl: iNotebook,
+      link: "https://github.com/Shahanawazgit/iNotebook",
+    },
+    {
+      title: "NewsTime",
+      description: "Stay updated with the world",
+      imgUrl: NewsTime,
+      link: "https://github.com/Shahanawazgit/NewsTime",
+    },
+    {
+      title: "textUtils",
+      description: "Text manipulating web app",
+      imgUrl: textUtils,
+      link: "https://github.com/Shahanawazgit/textUtils",
+    },
+  ];
+
   const projectsHtmlCssJs = [
     {
       title: "passwordGenerator",
@@ -60,33 +95,6 @@ const Projects = () => {
     },
   ];
 
-  const projectsReactBootstrap = [
-    {
-      title: "Shan's Portfolio",
-      description: "My Portfolio to show my work",
-      imgUrl: Portfolio,
-      link: "https://github.com/Shahanawazgit/iNotebook",
-    },
-    {
-      title: "iNotebook",
-      description: "MERN app for making notes",
-      imgUrl: iNotebook,
-      link: "https://github.com/Shahanawazgit/iNotebook",
-    },
-    {
-      title: "NewsTime",
-      description: "Stay updated with the world",
-      imgUrl: NewsTime,
-      link: "https://github.com/Shahanawazgit/NewsTime",
-    },
-    {
-      title: "textUtils",
-      description: "Text manipulating web app",
-      imgUrl: textUtils,
-      link: "https://github.com/Shahanawazgit/textUtils",
-    },
-  ];
-
   return (
     <section className="project" id="projects">
       <Container>
@@ -108,44 +116,44 @@ const Projects = () => {
               <Nav variant="pills" className="mb-5">
                 <Nav.Item>
                   <Nav.Link eventKey="first">
-                    <i className="fa-brands fa-html5 fa-2x"></i>
-                    <i className="fa-brands fa-css3-alt mx-2 fa-2x"></i>
-                    <i className="fa-brands fa-square-js fa-2x"></i>
+                    <i className="fa-brands fa-react mx-2 fa-2x"></i>
+                    <i className="fa-brands fa-bootstrap fa-2x"></i>
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="second">
                     <i className="fa-brands fa-html5 fa-2x"></i>
                     <i className="fa-brands fa-css3-alt mx-2 fa-2x"></i>
-                    <i className="fa-brands fa-bootstrap  fa-2x"></i>
-                    <i className="fa-brands fa-square-js mx-2 fa-2x"></i>
+                    <i className="fa-brands fa-square-js fa-2x"></i>
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="third">
-                    <i className="fa-brands fa-react mx-2 fa-2x"></i>
-                    <i className="fa-brands fa-bootstrap fa-2x"></i>
+                    <i className="fa-brands fa-html5 fa-2x"></i>
+                    <i className="fa-brands fa-css3-alt mx-2 fa-2x"></i>
+                    <i className="fa-brands fa-bootstrap  fa-2x"></i>
+                    <i className="fa-brands fa-square-js mx-2 fa-2x"></i>
                   </Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>
                 <Tab.Pane eventKey="first">
                   <Row>
-                    {projectsHtmlCssJs.map((project, index) => {
+                    {projectsReactBootstrap.map((project, index) => {
                       return <ProjectCard key={index} {...project} />;
                     })}
                   </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
                   <Row>
-                    {projectsHtmlCssBootstrapJs.map((project, index) => {
+                    {projectsHtmlCssJs.map((project, index) => {
                       return <ProjectCard key={index} {...project} />;
                     })}
                   </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
                   <Row>
-                    {projectsReactBootstrap.map((project, index) => {
+                    {projectsHtmlCssBootstrapJs.map((project, index) => {
                       return <ProjectCard key={index} {...project} />;
                     })}
                   </Row>
