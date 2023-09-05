@@ -21,68 +21,83 @@ const Projects = () => {
   const projectsReactBootstrap = [
     {
       title: "FitBit",
-      description: "Completely responsive gym website developed using React",
+      description:
+        "FitBit is a state-of-the-art gym website, meticulously crafted with React.js and Bootstrap, reflects our commitment to providing you with the best fitness experience possible. Completely responsive for different screen sizes.",
       imgUrl: fitbit,
-      link: "https://fitbit-shahanawazgit.vercel.app/",
+      gitHubRepo: "https://github.com/Shahanawazgit/fitbit",
+      liveLink: "https://fitbit-nine.vercel.app/",
     },
     {
-      title: "My Portfolio",
+      title: "Shahanawaz's Portfolio",
       description:
-        "The Portfolio website to show my details, skills & work developed using React and React-Bootstrap",
+        "Welcome to my portfolio website, a digital playground where creativity meets code! I am a passionate frontend developer, and this is where I showcase my skills, projects, and journey through the ever-evolving world of web development. Join me on this visual and interactive journey through the websites and applications I've crafted with care.",
       imgUrl: Portfolio,
-      link: "https://github.com/Shahanawazgit/iNotebook",
+      gitHubRepo: "https://github.com/Shahanawazgit/ShahanawazPortfolio",
+      liveLink: "https://shahanawaz-portfolio.vercel.app/",
     },
     {
       title: "iNotebook",
-      description: "MERN app for making notes",
+      description:
+        "iNotebook is a sleek and user-friendly React-based web application designed to simplify and enhance your note-taking experience. Whether you're a student, professional, or just someone who loves to stay organized, iNotebook offers a versatile platform for capturing, managing, and organizing your thoughts, ideas, and important information.",
       imgUrl: iNotebook,
-      link: "https://github.com/Shahanawazgit/iNotebook",
+      gitHubRepo: "https://github.com/Shahanawazgit/iNotebook",
+      liveLink: "https://i-notebook-topaz.vercel.app/",
     },
     {
       title: "NewsTime",
-      description: "Stay updated with the world",
+      description:
+        "Welcome to NewsTime, your one-stop destination for staying informed about the latest news and current events. Powered by the cutting-edge technology of React.js and the expansive capabilities of the NewsAPI, I have created a dynamic and user-friendly news web application that puts the world's headlines at your fingertips.",
       imgUrl: NewsTime,
-      link: "https://github.com/Shahanawazgit/NewsTime",
+      gitHubRepo: "https://github.com/Shahanawazgit/NewsTime",
+      liveLink: "https://github.com/Shahanawazgit/NewsTime",
     },
     {
-      title: "textUtils",
-      description: "Text manipulating web app",
+      title: "TextUtils",
+      description:
+        "TextUtils is the go-to web application for all your text manipulation needs, meticulously crafted with React.js to provide you with a seamless and powerful experience. Whether you're a writer, coder, marketer, or simply someone who wants to manipulate a text, TextUtils has got you covered.",
       imgUrl: textUtils,
-      link: "https://github.com/Shahanawazgit/textUtils",
+      gitHubRepo: "https://github.com/Shahanawazgit/TextUtils",
+      liveLink: "https://text-utils-blue.vercel.app/",
     },
   ];
 
   const projectsHtmlCssJs = [
     {
-      title: "passwordGenerator",
-      description: "passwordGenerator made by using HTML CSS and JS",
+      title: "Password Generator",
+      description:
+        "Password Generator - the ultimate solution to ensure your online security. In today's digital age, safeguarding your personal information has never been more critical. My Password Generator Web App empowers you to create robust, complex, and virtually unhackable passwords effortlessly.",
       imgUrl: passwordGenerator,
-      link: "https://github.com/Shahanawazgit/iNotebook",
+      gitHubRepo: "",
+      liveLink: "",
     },
     {
-      title: "DigitalMedia",
+      title: "Digital Media",
       description:
-        "DigitalMedia real world website made by using HTML CSS and JS",
+        "Digital Media - our Digital Marketing Agency, we understand the importance of staying at the forefront of the digital landscape. With our website as a prime example, we combine HTML's robust structure, CSS's elegant styling, and JavaScript's interactivity to deliver a digital experience that mirrors the innovative solutions we provide to our clients.",
       imgUrl: DigitalMedia,
-      link: "https://github.com/Shahanawazgit/iNotebook",
+      gitHubRepo: "https://github.com/Shahanawazgit/DigitalMedia",
+      liveLink: "https://shahanawazgit.github.io/DigitalMedia/",
     },
     {
       title: "eCommerceWebApp",
       description: "eCommerceWebApp made by using HTML CSS and JS",
       imgUrl: eCommerceWebApp,
-      link: "https://github.com/Shahanawazgit/iNotebook",
+      gitHubRepo: "",
+      liveLink: "https://github.com/Shahanawazgit/",
     },
     {
       title: "colorPicker",
       description: "colorPicker made by using HTML CSS and JS",
       imgUrl: colorPicker,
-      link: "https://github.com/Shahanawazgit/iNotebook",
+      gitHubRepo: "",
+      liveLink: "https://github.com/Shahanawazgit/",
     },
     {
       title: "DigitalClock",
       description: "Digital clock made by using HTML CSS and JS",
       imgUrl: DigitalClock,
-      link: "https://github.com/Shahanawazgit/iNotebook",
+      gitHubRepo: "",
+      liveLink: "https://github.com/Shahanawazgit/",
     },
   ];
 
@@ -91,7 +106,8 @@ const Projects = () => {
       title: "psdToHtml",
       description: "psdToHtml sample portfolio website",
       imgUrl: psdToHtml,
-      link: "https://github.com/Shahanawazgit/iNotebook",
+      gitHubRepo: "",
+      liveLink: "https://github.com/Shahanawazgit/",
     },
   ];
 
