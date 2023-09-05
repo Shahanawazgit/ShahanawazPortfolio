@@ -38,7 +38,7 @@ const Projects = () => {
     {
       title: "iNotebook",
       description:
-        "iNotebook is a sleek and user-friendly React-based web application designed to simplify and enhance your note-taking experience. Whether you're a student, professional, or just someone who loves to stay organized, iNotebook offers a versatile platform for capturing, managing, and organizing your thoughts, ideas, and important information.",
+        "iNotebook is a sleek and user-friendly MongoDB, Express.js, React.js & Node.js based web application designed to simplify and enhance your note-taking experience. Whether you're a student, professional, or just someone who loves to stay organized, iNotebook offers a versatile platform for capturing, managing, and organizing your thoughts, ideas, and important information.",
       imgUrl: iNotebook,
       gitHubRepo: "https://github.com/Shahanawazgit/iNotebook",
       liveLink: "https://i-notebook-topaz.vercel.app/",
@@ -63,14 +63,6 @@ const Projects = () => {
 
   const projectsHtmlCssJs = [
     {
-      title: "Password Generator",
-      description:
-        "Password Generator - the ultimate solution to ensure your online security. In today's digital age, safeguarding your personal information has never been more critical. My Password Generator Web App empowers you to create robust, complex, and virtually unhackable passwords effortlessly.",
-      imgUrl: passwordGenerator,
-      gitHubRepo: "",
-      liveLink: "",
-    },
-    {
       title: "Digital Media",
       description:
         "Digital Media - our Digital Marketing Agency, we understand the importance of staying at the forefront of the digital landscape. With our website as a prime example, we combine HTML's robust structure, CSS's elegant styling, and JavaScript's interactivity to deliver a digital experience that mirrors the innovative solutions we provide to our clients.",
@@ -79,35 +71,46 @@ const Projects = () => {
       liveLink: "https://shahanawazgit.github.io/DigitalMedia/",
     },
     {
-      title: "eCommerceWebApp",
-      description: "eCommerceWebApp made by using HTML CSS and JS",
+      title: "E-Commerce WebApp",
+      description:
+        "Welcome to our Ecommerce Web App Frontend, your gateway to a world of online shopping convenience and style. Our frontend has been meticulously crafted using a powerful combination of HTML, CSS, and JavaScript, ensuring a seamless and engaging shopping experience for our valued customers.",
       imgUrl: eCommerceWebApp,
-      gitHubRepo: "",
-      liveLink: "https://github.com/Shahanawazgit/",
+      gitHubRepo: "https://github.com/Shahanawazgit/E-commerce-WebApp",
+      liveLink: "https://shahanawazgit.github.io/E-commerce-WebApp/",
+    },
+    {
+      title: "Password Generator",
+      description:
+        "Password Generator - the ultimate solution to ensure your online security. In today's digital age, safeguarding your personal information has never been more critical. My Password Generator Web App empowers you to create robust, complex, and virtually unhackable passwords effortlessly.",
+      imgUrl: passwordGenerator,
+      gitHubRepo: "https://github.com/Shahanawazgit/",
+      liveLink:
+        "https://69exercise-7-password-generator--shahanawaz-path.repl.co/",
     },
     {
       title: "colorPicker",
       description: "colorPicker made by using HTML CSS and JS",
       imgUrl: colorPicker,
-      gitHubRepo: "",
-      liveLink: "https://github.com/Shahanawazgit/",
+      gitHubRepo: "https://github.com/Shahanawazgit/Color-Picker",
+      liveLink: "https://shahanawazgit.github.io/Color-Picker/",
     },
     {
       title: "DigitalClock",
       description: "Digital clock made by using HTML CSS and JS",
       imgUrl: DigitalClock,
-      gitHubRepo: "",
-      liveLink: "https://github.com/Shahanawazgit/",
+      gitHubRepo: "https://github.com/Shahanawazgit/",
+      liveLink: "https://33exersice04-digital-clock--shahanawaz-path.repl.co/",
     },
   ];
 
   const projectsHtmlCssBootstrapJs = [
     {
       title: "psdToHtml",
-      description: "psdToHtml sample portfolio website",
+      description:
+        "Transformed the static Photoshop design into a captivating online portfolio website with the power of HTML, CSS, Bootstrap, and JavaScript",
       imgUrl: psdToHtml,
-      gitHubRepo: "",
-      liveLink: "https://github.com/Shahanawazgit/",
+      gitHubRepo: "https://github.com/Shahanawazgit/PSD-to-HTML",
+      liveLink: "https://shahanawazgit.github.io/PSD-to-HTML/",
     },
   ];
 
