@@ -587,11 +587,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .project .nav.nav-pills .nav-link {
     font-size: 10px;
   }
+}
 
-  @media screen and (max-width: 350px) {
-    .project .nav.nav-pills .nav-link {
-      font-size: 8px;
-    }
+@media screen and (max-width: 576px) {
+  .proj-txtx p {
+    font-size: 16px;
+    margin: 10px auto 10px auto;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .project .nav.nav-pills .nav-link {
+    font-size: 8px;
+  }
+
+  .proj-txtx p {
+    font-size: 14px;
   }
 }
 
