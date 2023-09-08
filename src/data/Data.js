@@ -9,8 +9,17 @@ import passwordGenerator from "../assets/img/passwordGenerator.png";
 import colorPicker from "../assets/img/colorPicker.png";
 import psdToHtml from "../assets/img/psdToHtml.png";
 import fitbit from "../assets/img/fitbit laptop.png";
+import adminDashboard from "../assets/img/adminDashboard.png";
 
 export const projectsReactBootstrap = [
+  {
+    title: "Admin Dashboard",
+    description:
+      "Welcome to the cutting-edge ReactJS Admin Dashboard Web Application, designed to empower administrators and business owners with powerful tools for managing their data and operations efficiently. It is built with the latest ReactJS, Apex Charts, React Framer Motion, etc providing a seamless and responsive user experience for different screen sizes.",
+    imgUrl: adminDashboard,
+    gitHubRepo: "https://github.com/Shahanawazgit/AdminDashboard",
+    liveLink: "https://admin-dashboard-ten-nu.vercel.app/",
+  },
   {
     title: "FitBit",
     description:
