@@ -42,7 +42,7 @@ export const projectsReactBootstrap = [
       "iNotebook is a sleek and user-friendly MongoDB, Express.js, React.js & Node.js based web application designed to simplify and enhance your note-taking experience. Whether you're a student, professional, or just someone who loves to stay organized, iNotebook offers a versatile platform for capturing, managing, and organizing your thoughts, ideas, and important information.",
     imgUrl: iNotebook,
     gitHubRepo: "https://github.com/Shahanawazgit/iNotebook",
-    liveLink: "https://i-notebook-topaz.vercel.app/",
+    liveLink: "i-notebook-mern-crud.vercel.app",
   },
   {
     title: "NewsTime",
