@@ -29,9 +29,7 @@ const Banner = () => {
   const tick = () => {
     let i = loopNum % toRotate.length;
     let fullText = toRotate[i];
-    let updatedText = isDeleting
-      ? fullText.substring(0, text.length - 1)
-      : fullText.substring(0, text.length + 1);
+    let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
 
     setText(updatedText);
 
@@ -56,12 +54,7 @@ const Banner = () => {
           <Col xs={12} md={7} xl={7}>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div
-                  id="left-b"
-                  className={
-                    isVisible ? "animate__animated animate__slideInLeft" : ""
-                  }
-                >
+                <div id="left-b" className={isVisible ? "animate__animated animate__slideInLeft" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
                     {`Hi I'm Shahanawaz a `}
@@ -69,22 +62,13 @@ const Banner = () => {
                     <span className="wrap">{text}</span>
                   </h1>
                   <p>
-                    Dynamic frontend developer with extensive knowledge and
-                    experience in HTML, CSS, JavaScript, Bootstrap, and React
-                    JS. Demonstrated expertise in time-management, leadership,
-                    and collaboration. Excels in creating visually appealing and
-                    user-friendly websites and applications. Familiar with Git
-                    and GitHub for effective collaboration and version control.
-                    Passionate about creating visually appealing and responsive
-                    websites. Seeking opportunities to further skills in web
-                    development and contribute to organizational success.
+                    Dynamic frontend developer with extensive knowledge and experience in HTML, CSS, JavaScript, Bootstrap, and React JS. Demonstrated
+                    expertise in time-management, leadership, and collaboration. Excels in creating visually appealing and user-friendly websites and
+                    applications. Familiar with Git and GitHub for effective collaboration and version control. Passionate about creating visually
+                    appealing and responsive websites. Seeking opportunities to further skills in web development and contribute to organizational
+                    success.
                   </p>
-                  <a
-                    href={ResumePdf}
-                    download="Shahanawaz's Resume-PDF-document"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a href={ResumePdf} download="Shahanawaz's Resume-PDF-document" target="_blank" rel="noreferrer">
                     <button>
                       Resume
                       <ArrowDownCircle size={25} />
@@ -97,13 +81,7 @@ const Banner = () => {
           <Col xs={12} md={5} xl={5}>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible
-                      ? "animate__animated animate__delay-1s animate__slideInUp"
-                      : ""
-                  }
-                >
+                <div className={isVisible ? "animate__animated animate__delay-1s animate__slideInUp" : ""}>
                   <img src={headerImg} alt="Header img" />
                 </div>
               )}

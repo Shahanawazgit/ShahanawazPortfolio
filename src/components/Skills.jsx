@@ -37,34 +37,13 @@ const Skills = () => {
             <div className="skill-bx">
               <TrackVisibility>
                 {({ isVisible }) => (
-                  <div
-                    className={
-                      isVisible ? "animate__animated animate__slideInUp" : ""
-                    }
-                  >
+                  <div className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <h2>Skills</h2>
                     <p>These are my Technical Skills</p>
                   </div>
                 )}
               </TrackVisibility>
-              <Carousel
-                responsive={responsive}
-                infinite={true}
-                autoPlay={true}
-                className="skill-slider"
-              >
-                <div className="item">
-                  <img src={meter1} alt="meter-svg" />
-                  <h5>HTML</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="meter-svg" />
-                  <h5>CSS</h5>
-                </div>
-                <div className="item">
-                  <img src={meter3} alt="meter-svg" />
-                  <h5>Bootstrap</h5>
-                </div>
+              <Carousel responsive={responsive} infinite={true} autoPlay={true} className="skill-slider">
                 <div className="item">
                   <img src={meter3} alt="meter-svg" />
                   <h5>JavaScript</h5>
@@ -72,6 +51,22 @@ const Skills = () => {
                 <div className="item">
                   <img src={meter2} alt="meter-svg" />
                   <h5>React.js</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="meter-svg" />
+                  <h5>Bootstrap</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="meter-svg" />
+                  <h5>Tailwind</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="meter-svg" />
+                  <h5>HTML</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="meter-svg" />
+                  <h5>CSS</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="meter-svg" />
@@ -82,11 +77,7 @@ const Skills = () => {
           </Col>
         </Row>
       </Container>
-      <img
-        src={colorSharp}
-        alt="bg-img-left"
-        className="background-image-left"
-      />
+      <img src={colorSharp} alt="bg-img-left" className="background-image-left" />
     </section>
   );
 };
