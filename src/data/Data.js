@@ -10,8 +10,17 @@ import colorPicker from "../assets/img/colorPicker.png";
 import psdToHtml from "../assets/img/psdToHtml.png";
 import fitbit from "../assets/img/fitbit laptop.png";
 import adminDashboard from "../assets/img/adminDashboard.png";
+import NikeClone from "../assets/img/NikeClone.png";
 
 export const projectsReactBootstrap = [
+  {
+    title: "Nike Clone",
+    description:
+      "Discover the future of online sneaker shopping with my Nike Clone Frontend Website, built using the powerful Vite.js and the sleek design of Tailwind CSS. Step into a digital showroom that embodies the essence of Nike's innovation and style.",
+    imgUrl: NikeClone,
+    gitHubRepo: "https://github.com/Shahanawazgit/Nike-website",
+    liveLink: "https://nike-website-tailwind-self.vercel.app/",
+  },
   {
     title: "Admin Dashboard",
     description:
@@ -85,8 +94,7 @@ export const projectsHtmlCssJs = [
       "Password Generator - the ultimate solution to ensure your online security. In today's digital age, safeguarding your personal information has never been more critical. My Password Generator Web App empowers you to create robust, complex, and virtually unhackable passwords effortlessly.",
     imgUrl: passwordGenerator,
     gitHubRepo: "https://github.com/Shahanawazgit/",
-    liveLink:
-      "https://69exercise-7-password-generator--shahanawaz-path.repl.co/",
+    liveLink: "https://69exercise-7-password-generator--shahanawaz-path.repl.co/",
   },
   {
     title: "colorPicker",
