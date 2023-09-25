@@ -62,10 +62,9 @@ const Banner = () => {
                     <span className="wrap">{text}</span>
                   </h1>
                   <p>
-                    Dynamic frontend developer with extensive knowledge and experience in HTML, CSS, JavaScript, Bootstrap, and React JS. Demonstrated
-                    expertise in time-management, leadership, and collaboration. Excels in creating visually appealing and user-friendly websites and
-                    applications. Familiar with Git and GitHub for effective collaboration and version control. Passionate about creating visually
-                    appealing and responsive websites. Seeking opportunities to further skills in web development and contribute to organizational
+                    Dynamic frontend developer with extensive knowledge and experience in frontend technologies such as React.js, Bootstrap, Next.js, Tailwind CSS, HTML, CSS, and JavaScript. Demonstrated
+                    expertise in time-management, leadership, and collaboration. Passionate and Excel in creating visually appealing, user-friendly and responsive websites and
+    web applications. I use with Git and GitHub for effective collaboration and version control.Seeking opportunities to further skills in web development and contribute to organizational
                     success.
                   </p>
                   <a href={ResumePdf} download="Shahanawaz's Resume-PDF-document" target="_blank" rel="noreferrer">
