@@ -12,8 +12,17 @@ import fitbit from "../assets/img/fitbit laptop.png";
 import adminDashboard from "../assets/img/adminDashboard.png";
 import NikeClone from "../assets/img/NikeClone.png";
 import Promptopia from "../assets/img/Promptopia.png";
+import techshop from "../assets/img/techshop-ecommerce.png";
 
 export const projectsReactBootstrap = [
+  {
+    title: "TechShop | eCommerce",
+    description:
+      "Experience seamless tech shopping with my Next.js-powered full-stack e-commerce web app. The sleek frontend ensures a smooth user experience, while the robust backend, managed by Sanity, guarantees content management excellence. Secure payments are handled through the trusted Stripe gateway, providing a safe and convenient shopping experience for all.",
+    imgUrl: techshop,
+    gitHubRepo: "https://github.com/Shahanawazgit/techshop-ecommerce-nextjs",
+    liveLink: "https://techshop-ecommerce-nextjs.vercel.app",
+  },
   {
     title: "Promptopia",
     description:
