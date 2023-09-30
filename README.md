@@ -12,4 +12,7 @@ Welcome to my portfolio website, a digital playground where creativity meets cod
 ## Projects Section
 ![portfolio-Projects](https://github.com/Shahanawazgit/ShahanawazPortfolio/assets/139430501/ae16ae7f-7e21-4ded-ad56-7cd8a51d0f2c)
 
+## Contact Section
+![portfolio-Contact](https://github.com/Shahanawazgit/ShahanawazPortfolio/assets/139430501/9dc5be6f-3052-4c20-8e7e-c758245fa2d3)
+
 ## Checkout my Portfolio - https://shahanawaz-portfolio.vercel.app
