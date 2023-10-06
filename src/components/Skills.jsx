@@ -58,6 +58,10 @@ const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={meter2} alt="meter-svg" />
+                  <h5>Next.js</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="meter-svg" />
                   <h5>Tailwind</h5>
                 </div>
                 <div className="item">
