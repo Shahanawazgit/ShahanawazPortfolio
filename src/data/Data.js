@@ -13,8 +13,17 @@ import adminDashboard from "../assets/img/adminDashboard.png";
 import NikeClone from "../assets/img/NikeClone.png";
 import Promptopia from "../assets/img/Promptopia.png";
 import techshop from "../assets/img/techshop-ecommerce.png";
+import movix from "../assets/img/movix.png";
 
 export const projectsReactBootstrap = [
+  {
+    title: "Movix: Ratings, Overviews for Movies & TV Shows",
+    description:
+      "This React.js web app is a feature-rich platform resembling IMDb, focusing on movie and TV show ratings, overviews, genres, details, similarities, and personalized recommendations. Leveraging React.js, Redux Toolkit, TMDB API, and various React libraries, I provide an immersive user experience, allowing enthusiasts to explore, critique, and discover content easily.",
+    imgUrl: movix,
+    gitHubRepo: "https://github.com/Shahanawazgit/Movix",
+    liveLink: "https://movix-internet-movie-database.vercel.app",
+  },
   {
     title: "TechShop | eCommerce",
     description:
