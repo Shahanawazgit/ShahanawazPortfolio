@@ -4,7 +4,7 @@ import { ArrowDownCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-import ResumePdf from "../assets/resume/Shahanawaz's Resume.pdf";
+import ResumePdf from "../assets/resume/Shahanawaz's Resume FS.pdf";
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -12,7 +12,7 @@ const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(100 - Math.random() * 100);
 
-  const toRotate = ["Frontend Developer", "React Developer"];
+  const toRotate = ["Fullstack Developer", "MERN Developer"];
   const period = 1000;
 
   useEffect(() => {
@@ -62,10 +62,12 @@ const Banner = () => {
                     <span className="wrap">{text}</span>
                   </h1>
                   <p>
-                    Dynamic frontend developer with extensive knowledge and experience in frontend technologies such as React.js, Bootstrap, Next.js, Tailwind CSS, HTML, CSS, and JavaScript. Demonstrated
-                    expertise in time-management, leadership, and collaboration. Passionate and Excel in creating visually appealing, user-friendly and responsive websites and
-    web applications. I use Git and GitHub for effective collaboration and version control. Seeking opportunities to further skills in web development and contribute to organizational
-                    success.
+                   Dynamic Full Stack developer with extensive knowledge and experience in React.js, Node.js, Express.js,
+MongoDB, Bootstrap, Next.js, Tailwind CSS, HTML5, CSS3, and JavaScript(ES6). Demonstrated expertise in time
+management, leadership, and collaboration. Passionate and Excel in creating visually appealing, user-friendly,
+and responsive websites and web applications. I use Git and GitHub for effective collaboration and version
+control. Seeking opportunities to further skills in web development and contribute to organizational success.
+
                   </p>
                   <a href={ResumePdf} download="Shahanawaz's Resume-PDF-document" target="_blank" rel="noreferrer">
                     <button>
