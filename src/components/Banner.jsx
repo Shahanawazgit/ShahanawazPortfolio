@@ -4,7 +4,7 @@ import { ArrowDownCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-import ResumePdf from "../assets/";
+import ResumePdf from "../assets/Shahanawaz Resume Updated.pdf";
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
