@@ -4,7 +4,7 @@ import { ArrowDownCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-import ResumePdf from "../assets/Shahanawaz Resume Updated.pdf";
+import ResumePdf from "../assets/file/Shahanawaz's Resume Updated.pdf";
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -62,12 +62,7 @@ const Banner = () => {
                     <span className="wrap">{text}</span>
                   </h1>
                   <p>
-                   Dynamic Full Stack developer with extensive knowledge and experience in React.js, Node.js, Express.js,
-MongoDB, Bootstrap, Next.js, Tailwind CSS, HTML5, CSS3, and JavaScript(ES6). Demonstrated expertise in time
-management, leadership, and collaboration. Passionate and Excel in creating visually appealing, user-friendly,
-and responsive websites and web applications. I use Git and GitHub for effective collaboration and version
-control. Seeking opportunities to further skills in web development and contribute to organizational success.
-
+                    Full Stack Developer with 3.9+ years of experience building scalable, user-centric web applications across both frontend and backend layers. Strong expertise in modernizing frontend architectures, improving application performance, responsiveness, and SEO, while ensuring seamless integration with backend services. Experienced in developing reliable APIs, optimizing data access, and designing scalable cloud-ready systems. Adept at collaborating in agile environments and delivering clean, maintainable, and production-ready code. Passionate about continuous learning and leveraging modern tools to build high-quality, business-driven solutions.
                   </p>
                   <a href={ResumePdf} download="Shahanawaz's Resume-PDF-document" target="_blank" rel="noreferrer">
                     <button>

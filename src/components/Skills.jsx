@@ -50,15 +50,23 @@ const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={meter2} alt="meter-svg" />
+                  <h5>TypeScript</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="meter-svg" />
                   <h5>React.js</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="meter-svg" />
-                  <h5>Bootstrap</h5>
+                  <img src={meter2} alt="meter-svg" />
+                  <h5>Node.js</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="meter-svg" />
                   <h5>Next.js</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="meter-svg" />
+                  <h5>Express.js</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="meter-svg" />
